@@ -1,0 +1,76 @@
+/*Estilo para H1 */
+
+
+h1 {
+    font-family: 'Creepster', cursive; /* Fuente estilo Halloween */
+    color: #ff7518; /* Color naranja típico de Halloween */
+    text-shadow: 3px 3px 0 #000000, 5px 5px 0 #ff7518; /* Sombra negra y ligera sombra naranja */
+    background-color: #2b2b2b; /* Fondo oscuro */
+    padding: 20px;
+    border: 5px solid #000000; /* Borde negro grueso */
+    border-radius: 10px; /* Borde ligeramente redondeado */
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px; /* Espaciado entre letras */
+    transition: transform 0.3s ease-in-out; /* Transición para efecto hover */
+}
+
+h1:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el ratón */
+    color: #ff0000; /* Cambiar color a rojo sangre al pasar el ratón */
+    text-shadow: 3px 3px 0 #000000, 5px 5px 0 #ff0000; /* Actualizar sombra al hover */
+}
+
+/*Estilo para H2 */
+
+h2 {
+    font-family: 'Creepster', cursive; /* Fuente estilo Halloween */
+    color: #800080; /* Color morado oscuro para Halloween */
+    text-shadow: 3px 3px 5px #000000, 0 0 10px #ff7518; /* Sombra negra y resplandor naranja */
+    background-color: #1c1c1c; /* Fondo oscuro */
+    padding: 15px;
+    border: 3px solid #ff7518; /* Borde naranja estilo calabaza */
+    border-radius: 5px; /* Borde ligeramente redondeado */
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px; /* Espaciado entre letras */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición para efecto hover */
+}
+
+h2:hover {
+    color: #ff0000; /* Cambia a rojo sangre al pasar el ratón */
+    transform: scale(1.05) rotate(-2deg); /* Efecto de agrandar y rotación ligera */
+    text-shadow: 3px 3px 5px #000000, 0 0 15px #ff0000; /* Actualizar sombra al hover */
+}
+
+
+
+/*Estilo para fondo*/
+body {
+    background-image: url('https://cdn.leonardo.ai/users/c37d6618-b24c-4f1b-87ca-39cb349974a6/generations/9b562ba9-fe55-4421-8972-cafa25c8a3b6/Leonardo_Kino_XL_create_an_image_that_is_a_halloween_backgroun_0.jpg'); /* Enlace o ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubre todo el fondo */
+    background-position: center; /* La imagen se centra en la página */
+    background-repeat: no-repeat; /* La imagen no se repite */
+    background-attachment: fixed; /* La imagen permanece fija al hacer scroll */
+}
+
+
+/*Estilo para el texto del párrafo*/
+p {
+    font-family: 'Creepster', cursive; /* Fuente estilo Halloween */
+    color: #f6faf9; /* Color blanco para Halloween */
+    text-shadow: 3px 3px 5px #000000, 0 0 10px #ff7518; /* Sombra negra y resplandor naranja */
+    background-color: #1c1c1c; /* Fondo oscuro */
+    padding: 15px;
+    border: 3px solid #ff7518; /* Borde naranja estilo calabaza */
+    border-radius: 5px; /* Borde ligeramente redondeado */
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px; /* Espaciado entre letras */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición para efecto hover */
+
+
+
+
+    /*Estilo para la imagen*/
+   
